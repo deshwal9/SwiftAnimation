@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "3F3CAD43-0C0A-4D30-A271-5F7AB8715FBE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftComplete.xcodeproj",
+      "identifier" : "EBA2E11E2CDB4A0B00701183",
+      "name" : "SwiftComplete"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftComplete.xcodeproj",
+        "identifier" : "EBA2E1302CDB4A0D00701183",
+        "name" : "SwiftCompleteTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "2356408C-98A0-4E87-9FC9-2FA841959216",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SwiftComplete.xcodeproj",
+        "identifier" : "EBA2E13A2CDB4A0D00701183",
+        "name" : "SwiftCompleteUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
