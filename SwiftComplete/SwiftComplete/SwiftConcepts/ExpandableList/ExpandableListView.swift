@@ -15,13 +15,13 @@ struct ExpandableListView: View {
         NavigationView {
             VStack{
                 List{
-                    /*
-                    DefaultExpandedView(title: "Sample Title", subTitle: "Sample Sub Title", icon: "informationCircle", action: {
-                        print("Action tapped")
-                    }, loader: $vm.loader) { item in
-                        Text("Sample")
-                    }
-                     */
+                    
+//                    DefaultExpandedView(title: "Sample Title", subTitle: "Sample Sub Title", icon: "informationCircle", action: {
+//                        print("Action tapped")
+//                    }, loader: $vm.loader) { item in
+//                        Text("Sample")
+//                    }
+                    
                     
                     ExpandCollapseView(expanded: $isExpanded, title: "Sample Title", loader: $vm.loader) { item in
                         NilableView(

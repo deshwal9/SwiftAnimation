@@ -12,11 +12,7 @@ enum LoaderState<T> {
     case success(T)
     case error(Error)
 }
-// Collapsed/ Expanded view
-///  expanded:  by default the view is collapsed
-///  title: title of view
-///  action: action triggered on view expanded.
-///  loader: loader with state to display spinner,  conent or error.
+
 struct ExpandCollapseView<T, Content>: View where Content: View {
     @Binding var expanded: Bool
     let title: String
