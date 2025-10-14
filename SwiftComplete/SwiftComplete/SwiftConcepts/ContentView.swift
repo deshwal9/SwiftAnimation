@@ -23,6 +23,7 @@ struct ContentView: View {
         case speedWaveMeter
         case sequentialListLoading
         case buttonFocus
+        case form
         var displayName: String{
             switch self {
             case .list:
@@ -47,6 +48,8 @@ struct ContentView: View {
                 return "sequentialListLoading"
             case .buttonFocus:
               return "Button Focus"
+            case .form:
+              return "Form View"
             }
         }
     }
@@ -88,6 +91,8 @@ struct ContentView: View {
                     SequentialListLoadingVM().view
                 case .buttonFocus:
                      ButtonFocusModel().view
+                case .form:
+                  FormVM().view
                 default:
                     Text("Unknown")
                 }

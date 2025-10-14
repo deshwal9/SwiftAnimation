@@ -6,13 +6,14 @@
 //
 
 import Foundation
-import SwiftUICore
+import SwiftUI
 
 class ConcurrencyModel: ObservableObject {
 
     
     
 }
+
 extension ConcurrencyModel:ViewProvider {
     var view: AnyView {
         return AnyView(ConcurrencyView(vm: self))
