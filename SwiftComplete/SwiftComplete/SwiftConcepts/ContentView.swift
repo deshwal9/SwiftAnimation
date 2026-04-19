@@ -24,6 +24,8 @@ struct ContentView: View {
         case sequentialListLoading
         case buttonFocus
         case form
+        case taskGroup
+        case dualsubviewAnimation
         var displayName: String{
             switch self {
             case .list:
@@ -50,6 +52,11 @@ struct ContentView: View {
               return "Button Focus"
             case .form:
               return "Form View"
+            case .taskGroup:
+              return  "Task Group"
+            case .dualsubviewAnimation:
+              return "Dual Subview Animation"
+
             }
         }
     }
@@ -93,6 +100,10 @@ struct ContentView: View {
                      ButtonFocusModel().view
                 case .form:
                   FormVM().view
+                case .taskGroup:
+                    TaskGroupView()
+                case .dualsubviewAnimation:
+                  DualBottomPanelView()
                 default:
                     Text("Unknown")
                 }

@@ -217,7 +217,6 @@ struct SpeedColumn: Identifiable, CustomStringConvertible {
     }
 }
 
-
 struct ColumnView: View {
     @Binding var column: SpeedColumn
     var body: some View {
